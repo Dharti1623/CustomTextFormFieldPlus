@@ -1,5 +1,5 @@
-import 'package:custom_text_form_field_plus/custom_text_form_field_plus.dart';
 import 'package:flutter/material.dart';
+import 'package:custom_text_form_field_plus/custom_text_form_field_plus.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,14 +33,12 @@ class _MyAppState extends State<MyApp> {
             CustomTextFormField(
               labelText: 'Name',
               hintText: 'Enter Name',
-              validator: (String? value) =>
-                  Validations.emptyValidation(value),
+              validator: (String? value) => Validations.emptyValidation(value),
             ),
             CustomTextFormField(
               labelText: 'Email',
               hintText: 'Enter Email',
-              validator: (String? value) =>
-                  Validations.emailValidation(value),
+              validator: (String? value) => Validations.emailValidation(value),
             ),
             CustomTextFormField(
               labelText: 'Phone Number',

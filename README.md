@@ -19,7 +19,7 @@
    
        ```yaml
        dependencies:
-         custom_text_form_field_plus: ^0.0.2  
+         custom_text_form_field_plus: ^0.0.3  
        ```
 
    2. Import the package in your Dart code:
@@ -55,9 +55,34 @@ Here's an example:
    `CustomTextFormField` provides various customization options through its constructor parameters. You
    can customize attributes like `labelText`, `hintText`, `validator`, and many more to suit your
    application's requirements.
-   
-   For more details on customization options, refer to
-   the [CustomTextFormField API documentation](https://pub.dev/packages/custom_text_form_field_plus).
+
+| <b>Attribute</b>     |         <b>Type</b>          | <b>Description</b>                                                        |
+|:---------------------|:----------------------------:|:--------------------------------------------------------------------------|
+| `labelText`          |           `String`           | The label text to display above the text input field.                     |
+| `hintText`           |           `String`           | The hint text to display inside the text input field.                     |
+| `width`              |           `Double`           | The width of the text input field.                                        |
+| `validator`          | `FormFieldValidator<String>` | A function that validates the input text.                                 |
+| `controller`         |   `TextEditingController`    | A controller for manipulating the text input field.                       |
+| `textInputAction`    |      `TextInputAction`       | The action to be performed when the keyboard's "Done" button is pressed.  |
+| `minLines`           |            `int`             | The minimum number of lines to display in the input field.                |
+| `autocorrect`        |            `bool`            | Whether autocorrection should be enabled for the input field.             |
+| `autofocus`          |            `bool`            | Whether the input field should be focused automatically.                  |
+| `errorMaxLines`      |            `int`             | The maximum number of lines to display when an error occurs.              |
+| `maxLines`           |            `int`             | The maximum number of lines to display in the input field.                |
+| `suffixIconButton`   |         `IconButton`         | An icon button to be displayed as a suffix to the input field.            |
+| `keyboardType`       |       `TextInputType`        | The type of keyboard to display.                                          |
+| `autoValidateMode`   |      `AutovalidateMode`      | When and how to validate the input automatically.                         |
+| `padding`            |         `EdgeInsets`         | The padding around the input field.                                       |
+| `enabledBorder`      |        `InputBorder`         | The border to display when the input field is enabled.                    |
+| `border`             |        `InputBorder`         | The border to display around the input field.                             |
+| `focusedErrorBorder` |        `InputBorder`         | The border to display when the input field is focused and in error state. |
+| `focusedBorder`      |        `InputBorder`         | The border to display when the input field is focused.                    |
+| `errorBorder`        |        `InputBorder`         | The border to display when the input field is in error state.             |
+| `disabledBorder`     |        `InputBorder`         | The border to display when the input field is disabled.                   |
+
+For more details on customization options, refer to
+the [CustomTextFormField API documentation](https://pub.dev/packages/custom_text_form_field_plus).
+
 
 ### Author
 

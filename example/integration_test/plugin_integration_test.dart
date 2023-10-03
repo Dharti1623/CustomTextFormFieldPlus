@@ -7,10 +7,7 @@
 // https://docs.flutter.dev/cookbook/testing/integration/introduction
 
 
-import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
-
-import 'package:custom_text_form_field_plus/custom_text_form_field_plus.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
