@@ -21,7 +21,7 @@ To use `custom_text_form_field_plus` in your Flutter project, follow these steps
 
     ```yaml
         dependencies:
-          custom_text_form_field_plus: ^0.0.4  
+          custom_text_form_field_plus: ^0.0.5  
     ```
 
 2. Import the package in your Dart code:
@@ -43,12 +43,21 @@ Here's an example:
    ```
 
    ```
-       CustomTextFormField(
-           labelText: 'Name',
-           hintText: 'Enter Name',
-           validator: (String? value) => Validations.emptyValidation(value),
-       );
-       
+      CustomTextFormField(
+         labelText: 'Name',
+         hintText: 'Enter Name',
+         validator: (String? value) => Validations.emptyValidation(value),
+      ),
+      CustomTextFormField(
+         labelText: 'Email',
+         hintText: 'Enter Email',
+         validator: (String? value) => Validations.emailValidation(value),
+      ),
+      CustomTextFormField(
+         labelText: 'Phone Number',
+         hintText: 'Enter Mobile Number',
+         validator: (String? value) => Validations.contactNumberValidation(value),
+      ),
    ```
 
 Check example folder for more.
@@ -61,7 +70,7 @@ can customize attributes like `labelText`, `hintText`, `validator`, and many mor
 application's requirements.
 </br>
 
-| `<center>**Attribute**</center>` | `<center>**Type**</center>` | `<center>**Description**</center>  `                                      |
+| <center>**`Attribute`**</center> | <center>**`Type`**</center> | <center>`**Description`**</center>                                        |
 |:---------------------------------|:---------------------------:|:--------------------------------------------------------------------------|
 | labelText                        |           String            | The label text to display above the text input field.                     |
 | hintText                         |           String            | The hint text to display inside the text input field.                     |

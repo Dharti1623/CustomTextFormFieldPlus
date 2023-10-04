@@ -16,3 +16,8 @@
 ## 0.0.4
 
 - Solved format issues 
+
+
+## 0.0.5
+
+- Solved format issues 
