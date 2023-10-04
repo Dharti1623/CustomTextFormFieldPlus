@@ -8,17 +8,13 @@ applications.
 
 ## Platform Support
 
-| Android | iOS     | Web     | MacOS   | Linux   | Windows |
-| :-----: | :-:     | :---:   | :-----: | :-:     | :---:   |
-| &#9989; | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; |
+<br>
 
+| **Android** | **iOS** | **Web** | **MacOS** | **Linux** | **Windows** |
+|:-----------:|:-------:|:-------:|:---------:|:---------:|:-----------:|
+|   &#9989;   | &#9989; | &#9989; |  &#9989;  |  &#9989;  |   &#9989;   |
 
-
-| **Android**  | **iOS** | **Web** | **MacOS** | **Linux** | **Windows**  |
-|:------------:|:-------:|:-------:|:---------:|:---------:|:------------:|
-|   &#9989;    | &#9989; | &#9989; |  &#9989;  |  &#9989;  |   &#9989;    |
-
-</br></br></br>
+</br></br>
 
 ### Installation
 
@@ -48,7 +44,6 @@ Here's an example:
    ```flutter
        import 'package:custom_text_form_field_plus/custom_text_form_field_plus.dart';
    ```
-
 
    ```
       CustomTextFormField(
