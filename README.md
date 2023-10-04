@@ -5,12 +5,14 @@ provides a feature-rich text input field with support for labels, hints, validat
 widget simplifies the process of creating and customizing text input fields in your Flutter
 applications.
 </br></br>
+
 ## Platform Support
 
 | Android | iOS | Web | MacOS | Linux | Windows |
 | :-----: | :-: | :---: | :-----: | :-: | :---: |
 | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; |
 </br></br>
+
 ### Installation
 
 To use `custom_text_form_field_plus` in your Flutter project, follow these steps:
@@ -27,7 +29,9 @@ To use `custom_text_form_field_plus` in your Flutter project, follow these steps
    ```dart
    import 'package:custom_text_form_field_plus/custom_text_form_field_plus.dart';
    ```
+
 </br></br>
+
 ### Usage
 
 To create a customized text input field with validation using `custom_text_form_field_plus`, you can
@@ -57,29 +61,29 @@ can customize attributes like `labelText`, `hintText`, `validator`, and many mor
 application's requirements.
 </br>
 
-| <center>**Attribute**</center> |  <center>**Type**</center>   | <center>**Description**</center>                                          |
-|:-------------------------------|:----------------------------:|:--------------------------------------------------------------------------|
-| `labelText`                    |           `String`           | The label text to display above the text input field.                     |
-| `hintText`                     |           `String`           | The hint text to display inside the text input field.                     |
-| `width`                        |           `Double`           | The width of the text input field.                                        |
-| `validator`                    | `FormFieldValidator<String>` | A function that validates the input text.                                 |
-| `controller`                   |   `TextEditingController`    | A controller for manipulating the text input field.                       |
-| `textInputAction`              |      `TextInputAction`       | The action to be performed when the keyboard's "Done" button is pressed.  |
-| `minLines`                     |            `int`             | The minimum number of lines to display in the input field.                |
-| `autocorrect`                  |            `bool`            | Whether autocorrection should be enabled for the input field.             |
-| `autofocus`                    |            `bool`            | Whether the input field should be focused automatically.                  |
-| `errorMaxLines`                |            `int`             | The maximum number of lines to display when an error occurs.              |
-| `maxLines`                     |            `int`             | The maximum number of lines to display in the input field.                |
-| `suffixIconButton`             |         `IconButton`         | An icon button to be displayed as a suffix to the input field.            |
-| `keyboardType`                 |       `TextInputType`        | The type of keyboard to display.                                          |
-| `autoValidateMode`             |      `AutovalidateMode`      | When and how to validate the input automatically.                         |
-| `padding`                      |         `EdgeInsets`         | The padding around the input field.                                       |
-| `enabledBorder`                |        `InputBorder`         | The border to display when the input field is enabled.                    |
-| `border`                       |        `InputBorder`         | The border to display around the input field.                             |
-| `focusedErrorBorder`           |        `InputBorder`         | The border to display when the input field is focused and in error state. |
-| `focusedBorder`                |        `InputBorder`         | The border to display when the input field is focused.                    |
-| `errorBorder`                  |        `InputBorder`         | The border to display when the input field is in error state.             |
-| `disabledBorder`               |        `InputBorder`         | The border to display when the input field is disabled.                   |
+| `<center>**Attribute**</center>` | `<center>**Type**</center>` | `<center>**Description**</center>  `                                      |
+|:---------------------------------|:---------------------------:|:--------------------------------------------------------------------------|
+| labelText                        |           String            | The label text to display above the text input field.                     |
+| hintText                         |           String            | The hint text to display inside the text input field.                     |
+| width                            |           Double            | The width of the text input field.                                        |
+| validator                        | FormFieldValidator<String>  | A function that validates the input text.                                 |
+| controller                       |    TextEditingController    | A controller for manipulating the text input field.                       |
+| textInputAction                  |       TextInputAction       | The action to be performed when the keyboard's "Done" button is pressed.  |
+| minLines                         |             int             | The minimum number of lines to display in the input field.                |
+| autocorrect                      |            bool             | Whether autocorrection should be enabled for the input field.             |
+| autofocus                        |            bool             | Whether the input field should be focused automatically.                  |
+| errorMaxLines                    |             int             | The maximum number of lines to display when an error occurs.              |
+| maxLines                         |             int             | The maximum number of lines to display in the input field.                |
+| suffixIconButton                 |         IconButton          | An icon button to be displayed as a suffix to the input field.            |
+| keyboardType                     |        TextInputType        | The type of keyboard to display.                                          |
+| autoValidateMode                 |      AutovalidateMode       | When and how to validate the input automatically.                         |
+| padding                          |         EdgeInsets          | The padding around the input field.                                       |
+| enabledBorder                    |         InputBorder         | The border to display when the input field is enabled.                    |
+| border                           |         InputBorder         | The border to display around the input field.                             |
+| focusedErrorBorder               |         InputBorder         | The border to display when the input field is focused and in error state. |
+| focusedBorder                    |         InputBorder         | The border to display when the input field is focused.                    |
+| errorBorder                      |         InputBorder         | The border to display when the input field is in error state.             |
+| disabledBorder                   |         InputBorder         | The border to display when the input field is disabled.                   |
 
 For more details on customization options, refer to
 the [CustomTextFormField API documentation](https://pub.dev/packages/custom_text_form_field_plus).
@@ -87,6 +91,6 @@ the [CustomTextFormField API documentation](https://pub.dev/packages/custom_text
 
 ### Author
 
-- [Dharti Chauhan](https://github.com/Dharti1623)
+- [Dharti Chauhan](https://www.linkedin.com/in/dhartichauhan)
 
 If you have any questions or need assistance, please feel free to contact the author.
