@@ -8,10 +8,16 @@ applications.
 
 ## Platform Support
 
-| Android | iOS | Web | MacOS | Linux | Windows |
-| :-----: | :-: | :---: | :-----: | :-: | :---: |
+| Android | iOS     | Web     | MacOS   | Linux   | Windows |
+| :-----: | :-:     | :---:   | :-----: | :-:     | :---:   |
 | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; |
-</br></br>
+
+
+| **`Android`**  | **`iOS`** | **`Web`**  | **`MacOS`** | **`Linux`** | **`Windows`**  |
+|:--------------:|:---------:|:----------:|:-----------:|:-----------:|:--------------:|
+|    &#9989;     |  &#9989;  |  &#9989;   |   &#9989;   |   &#9989;   |    &#9989;     |
+
+</br></br></br>
 
 ### Installation
 
@@ -30,7 +36,7 @@ To use `custom_text_form_field_plus` in your Flutter project, follow these steps
    import 'package:custom_text_form_field_plus/custom_text_form_field_plus.dart';
    ```
 
-</br></br>
+</br></br></br>
 
 ### Usage
 
@@ -41,6 +47,7 @@ Here's an example:
    ```flutter
        import 'package:custom_text_form_field_plus/custom_text_form_field_plus.dart';
    ```
+
 
    ```
       CustomTextFormField(
@@ -61,7 +68,7 @@ Here's an example:
    ```
 
 Check example folder for more.
-</br></br>
+</br></br></br>
 
 ### Customizations
 
