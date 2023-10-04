@@ -8,7 +8,6 @@ applications.
 
 ## Platform Support
 
-<br>
 
 | **Android** | **iOS** | **Web** | **MacOS** | **Linux** | **Windows** |
 |:-----------:|:-------:|:-------:|:---------:|:---------:|:-----------:|
@@ -16,7 +15,7 @@ applications.
 
 </br></br>
 
-### Installation
+## Installation
 
 To use `custom_text_form_field_plus` in your Flutter project, follow these steps:
 
@@ -35,7 +34,7 @@ To use `custom_text_form_field_plus` in your Flutter project, follow these steps
 
 </br></br></br>
 
-### Usage
+## Usage
 
 To create a customized text input field with validation using `custom_text_form_field_plus`, you can
 use the `CustomTextFormField` widget and the provided `Validations` class for validation functions.
@@ -66,7 +65,7 @@ Here's an example:
 Check example folder for more.
 </br></br></br>
 
-### Customizations
+## Customizations
 
 `CustomTextFormField` provides various customization options through its constructor parameters. You
 can customize attributes like `labelText`, `hintText`, `validator`, and many more to suit your
@@ -101,7 +100,7 @@ For more details on customization options, refer to
 the [CustomTextFormField API documentation](https://pub.dev/packages/custom_text_form_field_plus).
 </br></br>
 
-### Author
+## Author
 
 - [Dharti Chauhan](https://www.linkedin.com/in/dhartichauhan)
 
