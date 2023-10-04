@@ -70,7 +70,7 @@ can customize attributes like `labelText`, `hintText`, `validator`, and many mor
 application's requirements.
 </br>
 
-| <center>**`Attribute`**</center> | <center>**`Type`**</center> | <center>`**Description`**</center>                                        |
+| <center>**`Attribute`**</center> | <center>**`Type`**</center> | <center>**`Description`**</center>                                        |
 |:---------------------------------|:---------------------------:|:--------------------------------------------------------------------------|
 | labelText                        |           String            | The label text to display above the text input field.                     |
 | hintText                         |           String            | The hint text to display inside the text input field.                     |
