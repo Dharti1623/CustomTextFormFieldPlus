@@ -8,7 +8,8 @@ abstract class CustomTextFormFieldPlusPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static CustomTextFormFieldPlusPlatform _instance = MethodChannelCustomTextFormFieldPlus();
+  static CustomTextFormFieldPlusPlatform _instance =
+      MethodChannelCustomTextFormFieldPlus();
 
   /// The default instance of [CustomTextFormFieldPlusPlatform] to use.
   ///

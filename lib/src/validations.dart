@@ -1,4 +1,3 @@
-
 /// A class containing various validation functions.
 class Validations {
   /// Validates if the value is empty or whitespace.

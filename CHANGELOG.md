@@ -11,3 +11,8 @@
 ## 0.0.3
 
 - Solved some issues 
+
+
+## 0.0.4
+
+- Solved format issues 
